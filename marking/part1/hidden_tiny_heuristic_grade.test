@@ -1,0 +1,19 @@
+class: "HeuristicGrade"
+
+heuristic: "foodHeuristic"
+searchProblemClass: "FoodSearchProblem"
+layoutName: "tinySearch"
+layout: """
+%%%%%%%%%
+%.......%
+%%%%.%%.%
+%.......%
+%.%%.%%.%
+%P%.....%
+%%%%%%%%%
+"""
+# One point always, an extra point for each
+# threshold passed.
+basePoints: "1"
+gradingThresholds: "30000 10000 3400 3000"
+
